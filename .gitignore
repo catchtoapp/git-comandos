@@ -365,4 +365,6 @@ FodyWeavers.xsd
 # Add new Sentences
 .vs/
 /.vs
-*.vs  
+*.vs
+/.vs/
+
