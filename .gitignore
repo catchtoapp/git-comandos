@@ -379,3 +379,5 @@ FodyWeavers.xsd
 /AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.assets.cache
 /AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.GeneratedMSBuildEditorConfig.editorconfig
 /AplicacionConsola/obj/project.nuget.cache
+/AplicacionConsola/obj/project.assets.json
+/AplicacionConsola/obj/AplicacionConsola.csproj.nuget.dgspec.json
