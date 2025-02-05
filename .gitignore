@@ -372,3 +372,10 @@ FodyWeavers.xsd
 /.vs/AplicacionConsola/v17/.suo
 /.vs/AplicacionConsola/v17/.suo
 /.vs/AplicacionConsola/v17/DocumentLayout.json
+/.vs/AplicacionConsola/DesignTimeBuild/.dtbcache.v2
+/.vs/AplicacionConsola/v17/DocumentLayout.backup.json
+/AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.AssemblyInfo.cs
+/AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.AssemblyInfoInputs.cache
+/AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.assets.cache
+/AplicacionConsola/obj/Debug/net9.0/AplicacionConsola.GeneratedMSBuildEditorConfig.editorconfig
+/AplicacionConsola/obj/project.nuget.cache
