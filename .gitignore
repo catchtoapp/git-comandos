@@ -368,3 +368,5 @@ FodyWeavers.xsd
 *.vs
 /.vs/
 
+/.vs/AplicacionConsola/v17/DocumentLayout.json
+/.vs/AplicacionConsola/v17/.suo
