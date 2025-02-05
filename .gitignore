@@ -376,3 +376,5 @@ FodyWeavers.xsd
 /AplicacionConsola/obj/project.nuget.cache
 /AplicacionConsola/obj/project.assets.json
 /AplicacionConsola/obj/AplicacionConsola.csproj.nuget.dgspec.json
+
+# Add new line
