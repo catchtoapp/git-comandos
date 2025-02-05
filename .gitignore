@@ -363,11 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Add new Sentences
-.vs/
-/.vs
-*.vs
-/.vs/
-
 /.vs/AplicacionConsola/v17/DocumentLayout.json
 /.vs/AplicacionConsola/v17/.suo
 /.vs/AplicacionConsola/v17/.suo
