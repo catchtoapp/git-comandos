@@ -1,0 +1,41 @@
+﻿---Comandos git
+git init
+git status
+git add .
+git commit -m "name"
+git log
+git checkout idCommint --> viaja al commit (git checkout master para viajar al ultimo commit de master)
+git reset --hard idCommit --> viaja al commit pero mata los commit que se hicieron despues de el, con cuidado porque mata commit y retorna codigo antiguo
+git reset --soft idCommit --> viaja al commit pero mata los commit que se hicieron despues de el pero mantiene el codigo, solo mata commit
+git help
+git branch --> muestra ramas
+git branch name --> crea nueva rama
+git checkout -b Rama --> crea nueva rama y se mueve a esa rama
+git checkout nameRama --> lleva a la rama
+git merge RamaFeature  --> Para fusionar debes estar en la rama en la cual quieras importar los cambios ejm master
+git branch -D RamaElimiar --> Eliminar rama
+git clone URL --> descargar proyecto
+git remote add origin URL  --> enlazar repositorio local con repositorio remoto
+git remote -v  --> muestra repositorios enlazadas
+git remote remove origin  --> quita el enlace al repositorio github
+git push origin master  -->envia codiigo al repositorio remoto, te pide usuario y contrasenia si no esta enlazada
+git push origin OtherRama  --> sube la info de una rama a remoto
+git commit --amend -m "name" --> cambia el nombre del ultimo commit
+git push origin master -f  --> fuerza los cambios a remoto
+git tag -a v0.8 -m "mensaje" --> Crea tag anotadas
+git tag -a v0.1 -m "mensaje" idCommit --> Crea tag anotada y asigna al commit de ese id
+git push origin v0.1  --> subimos al remoto el tag creado local
+git push origin --tags --> sube todos los tag creados local en el remoto
+git branch -a -->muestras todas las ramas hasta las ocultas
+git fetch origin --> descarga fuentes de remoto a la rama temporal oculta
+git merge origin/master --> mergemos los cambios de la rama temporal oculta a  nuestro master
+---Cuando se identifica un cambio en el mismo archivo al momento de subir al remoto, cambio realizado por otro usuario. se debe realizar lo siguiente
+git fetch origin
+git merge origin/master
+*.debe aparecer en el documento las dos versiones del conflicto, el cual debes dejar solo con el cambio correcto
+git add .
+git commit -m "name"
+git push origin master
+repetir el proceso de descarga del cambio
+git fetch origin
+git merge origin/master
